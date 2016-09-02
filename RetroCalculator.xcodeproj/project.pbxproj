@@ -14,6 +14,12 @@
 		7C86FEDD1D784111002B2A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FEDB1D784111002B2A42 /* LaunchScreen.storyboard */; };
 		7C86FEE81D784111002B2A42 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FEE71D784111002B2A42 /* RetroCalculatorTests.swift */; };
 		7C86FEF31D784111002B2A42 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FEF21D784111002B2A42 /* RetroCalculatorUITests.swift */; };
+		7C86FF011D78561C002B2A42 /* WhiteRabbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF001D78561C002B2A42 /* WhiteRabbit.otf */; };
+		7C86FF021D78561C002B2A42 /* WhiteRabbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF001D78561C002B2A42 /* WhiteRabbit.otf */; };
+		7C86FF031D78561C002B2A42 /* WhiteRabbit.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF001D78561C002B2A42 /* WhiteRabbit.otf */; };
+		7C86FF051D785741002B2A42 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF041D785741002B2A42 /* btn.wav */; };
+		7C86FF061D785741002B2A42 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF041D785741002B2A42 /* btn.wav */; };
+		7C86FF071D785741002B2A42 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C86FF041D785741002B2A42 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		7C86FEEE1D784111002B2A42 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C86FEF21D784111002B2A42 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		7C86FEF41D784111002B2A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C86FF001D78561C002B2A42 /* WhiteRabbit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteRabbit.otf; sourceTree = "<group>"; };
+		7C86FF041D785741002B2A42 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		7C86FED11D784111002B2A42 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				7C86FF041D785741002B2A42 /* btn.wav */,
+				7C86FF001D78561C002B2A42 /* WhiteRabbit.otf */,
 				7C86FED21D784111002B2A42 /* AppDelegate.swift */,
 				7C86FED41D784111002B2A42 /* ViewController.swift */,
 				7C86FED61D784111002B2A42 /* Main.storyboard */,
@@ -232,9 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C86FF051D785741002B2A42 /* btn.wav in Resources */,
 				7C86FEDD1D784111002B2A42 /* LaunchScreen.storyboard in Resources */,
 				7C86FEDA1D784111002B2A42 /* Assets.xcassets in Resources */,
 				7C86FED81D784111002B2A42 /* Main.storyboard in Resources */,
+				7C86FF011D78561C002B2A42 /* WhiteRabbit.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C86FF021D78561C002B2A42 /* WhiteRabbit.otf in Resources */,
+				7C86FF061D785741002B2A42 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C86FF031D78561C002B2A42 /* WhiteRabbit.otf in Resources */,
+				7C86FF071D785741002B2A42 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
